@@ -1,0 +1,155 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+div.container{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #e5e5e5;
+}
+
+div.container div.top{
+  width: inherit;
+  height: 300px;
+  background-color: red;
+  overflow: hidden;
+}
+
+div.container div.bottom{
+  position: relative;
+  width: 828px;
+  height: 400px;
+  margin : 0 auto;
+  background-color: #e5e5e5;
+}
+
+
+
+.bottom div.slideshow{
+  width: 700px;
+  height     : 300px;
+  margin     : 80px auto 0;
+  position   : relative;
+  overflow: hidden;
+}
+
+.bottom div.slideshow div.train{
+  width: 9999px;
+  height   : inherit;
+  position : absolute;
+  left     : 0;
+  top      : 0;
+}
+
+
+
+.bottom div.slideshow div.train div.local-train{
+  width: 700px;
+  height : 300px;
+  float  : left;
+  border-radius       : 4px;
+}
+.bottom div.slideshow div.train div.local-train .logo{
+  width: 163px;
+  height : 208px;
+  border: 1px solid gray;
+  float  : left;
+}
+
+.bottom div.slideshow div.train div.local-train .logo img{
+  border: 8px solid white;
+}
+
+.bottom div.slideshow div.train div.local-train .subject-logo{
+  width: 500px;
+  height : 212px;
+  font-family: Arial,Helvetica,sans-serif;
+  float  : right;
+}
+
+.bottom div.slideshow div.train div.local-train .subject-logo h1{
+  font-size: 40px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color:#3e3f3f;
+}
+
+.bottom div.slideshow div.train div.local-train .subject-logo p{
+
+  width: 400px;
+  font-size: 11px;
+  color: #5c5c5c;
+  line-height: 20px;
+  text-align: left;
+
+}
+
+
+div.prev,
+div.next{
+  width: 64px;
+  height: 64px;
+  background-size     : cover;
+  background-repeat   : no-repeat;
+  background-position : left top;
+  cursor   : pointer;
+  position: relative;
+  top:48%;
+}
+
+div.prev{
+  float: left;
+  background-image   : url('images/details/Arrow-Back-icon.png');
+}
+
+div.next{
+  float: right;
+  background-image   : url('images/details/Arrow-Next-icon.png');
+}
+/*
+div.container div.top div.train{
+  width: 9999px;
+  height: inherit;
+}
+
+div.container div.top div.train ul li{
+  float: left;
+  color: white;
+  margin-left: 20px;
+  font-size: 40px;
+  cursor: pointer;
+  list-style : none;
+}
+
+.left{
+  width: 300px;
+  height: inherit;
+  opacity: 0.8;
+  position: absolute;
+  float: left;
+  background-color: #fde;
+}
+.right{
+  width: 300px;
+  height: inherit;
+  float: right;
+  opacity: 0.8;
+  background-color: #16f;
+}
+.pointer{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top:-10px;
+
+  left: 0;
+  right: 0;
+  margin:auto;
+  background-color: #fff;
+  -webkit-transform:rotate(45deg);
+}
