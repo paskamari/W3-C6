@@ -8,6 +8,7 @@ script.js
 style.css
 titr-pics.html
 library/jquery-1.9.1.min.js
+library/jquery.address.min.js
 library/1styles.css
 library/lib.php
 images/details/Arrow-Back-icon.png
