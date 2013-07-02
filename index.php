@@ -36,7 +36,7 @@
 									</div>
 									<div class='subject-logo'>
 										<h1>$temp[1]</h1>
-										<p class='description'>the international sales	and  headquarters.</p>
+										<p class='description'>...</p>
 									</div>
 								</div>
 							";
