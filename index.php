@@ -7,7 +7,6 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="library/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="library/jquery.address.min.js"></script>
-	
 </head>
 <body>
 
@@ -17,17 +16,12 @@
 	?>
 
 	<div class="container">
-
 		<div class="top">
 			<div class="slideshow">
 				<div class="train">
-					
-
 						<?php
 							foreach($imgs as $img){
-
 								$temp = explode('.',$img);
-
 								echo "
 									<div class='local-train'>
 										<h1>$temp[0]</h1>
@@ -35,22 +29,18 @@
 								";
 							}
 						?>
-					
 				</div>
-		    </div>
+		  </div>
 		</div>
 
 		<div class="bottom cover">
 			<div class="prev"></div>
-		    <div class="next"></div>
-
+		  <div class="next"></div>
 			<div class="slideshow">
 				<div class="train">
 					<?php
 						foreach($imgs as $img){
-
 							$temp = explode('.',$img);
-
 							echo "
 								<div class='local-train'>
 									<div class='logo'>
@@ -65,12 +55,10 @@
 						}
 					?>
 				</div>
-		    </div>
-
+		  </div>
 		</div>
 		<div class="pointer"></div>
 	</div>
-
 	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
